@@ -4,6 +4,7 @@ import com.ada.filmes.domain.Ator;
 import com.ada.filmes.domain.Filme;
 import com.ada.filmes.repository.FilmeRepository;
 import com.ada.filmes.service.FilmeService;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -31,7 +32,7 @@ public class AtualizaFilmeTest {
                 .genero("Gênero antigo")
                 .id(1L)
                 .nome("Nome antigo!")
-                .listaDeAtores(List.of(Ator.builder().nome("cafeina").build()
+                .listaDeAtores(List.of(Ator.builder().nome("John Travolta").build()
                 )).build();
 
 
